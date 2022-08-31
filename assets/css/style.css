@@ -1,0 +1,28 @@
+section {
+    position: relative;
+    background-color: lightgray;
+    height: 155px;
+    width: 100%;
+}
+div {
+    position: absolute;
+    left:0;
+    height: 75px;
+    width: 75px;
+}
+.red {
+    background-color: red;
+    transition: 2s;
+}
+.green {
+    background-color: green;
+    margin-top: 80px;
+    transition: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+
+}
+section:hover div {
+    left: 90%;
+}
+
